@@ -6,7 +6,7 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-26.05";
     # Old nixpkgs: only used to source the old glibc we link against.
     nixpkgs_old = {
-      url = "github:nixos/nixpkgs/nixos-19.09";
+      url = "github:nixos/nixpkgs/nixos-20.09";
       flake = false;
     };
   };
